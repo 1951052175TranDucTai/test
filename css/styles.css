@@ -323,126 +323,107 @@ button:hover {
 }
 
 /* Banner Slider */
-.banner-slider {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
+.banner {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      background: linear-gradient(90deg, #a2d5f2 0%, #7ec8e3 50%, #5aa9d6 100%);
+      color: #00334e; /* xanh đậm để nổi trên nền pastel */
+      padding: 30px;
+      box-sizing: border-box;
+      align-items: center;
+    }
+    .banner-text {
+      flex: 1.2;
+    }
+    .banner-text h2 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .banner-text h1 {
+      margin: 0;
+      font-size: 50px;
+      color: #ff6f61; /* đỏ san hô đậm để nổi bật */
+    }
+    .banner-text p {
+      margin: 8px 0;
+      font-size: 17px;
+    }
+    .hotline {
+      background: #ffd166; /* vàng pastel */
+      color: #00334e;
+      padding: 8px 12px;
+      display: inline-block;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .banner-image {
+      flex: 0.8;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .banner-image img {
+      height: 200px; /* tăng kích thước ảnh */
+      width: 390px;
+      border-radius: 4px;
+    }
 
-.banner-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.banner-item.active {
-  opacity: 1;
-}
-
-.banner-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.banner-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  max-width: 80%;
-}
-
-.banner-content h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-
-.banner-content p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.banner-btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #4cafff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.banner-btn:hover {
-  background-color: #389cd6;
-}
-
-.slider-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 3em;
-  cursor: pointer;
-  padding: 10px;
-  user-select: none;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  z-index: 10;
-}
-
-.prev-btn {
-  left: 20px;
-}
-
-.next-btn {
-  right: 20px;
-}
-
-.slider-dots {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+     /* Slider */
+  .slider-header {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+    width: 100%;
+      height: 230px;
+      overflow: hidden;
+      position: relative;
+      background: #a2d5f2; /* xanh biển pastel */
 }
-
-.dot {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
+.main-slider {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+.main-slider .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+.main-slider .slide.active { opacity: 1; }
+.text-slider {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.text-slide {
+  display: none;
+  text-align: left;
+   color: #ff6f61;
+}
+.text-slide.active { display: block; }
+.text-slide h2 { font-size: 1.8rem; color: #ff6f61; }
+.text-slide button {
+  margin-top: .5rem;
+  padding: .7rem 1.5rem;
+  background: #F39C12;
+  border: none;
+  color: #fff;
   cursor: pointer;
-  transition: background-color 0.3s;
+  border-radius: 4px;
+  transition: background .3s, transform .2s;
 }
-
-.dot.active {
-  background-color: #fff;
-}
-
-/* Responsive banner */
-@media (max-width: 768px) {
-  .banner-slider {
-    height: 300px;
-  }
-  .banner-content h1 {
-    font-size: 1.5em;
-  }
-  .banner-content p {
-    font-size: 1em;
-  }
-  .slider-nav {
-    font-size: 2em;
-  }
+.text-slide button:hover {
+  background: #d88f0e;
+  transform: scale(1.05);
 }

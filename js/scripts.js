@@ -359,69 +359,14 @@ function faqToggle() {
   });
 }
 
-function bannerSlider() {
-  const bannerItems = document.querySelectorAll(".banner-item");
-  const dots = document.querySelectorAll(".dot");
-  const prevBtn = document.querySelector(".prev-btn");
-  const nextBtn = document.querySelector(".next-btn");
-
-  if (!bannerItems.length) return; // Dừng nếu không có banner
-
-  let currentSlide = 0;
-  const slideInterval = 5000; // 5 giây
-  let autoSlideTimer;
-
-  function showSlide(index) {
-    bannerItems.forEach((item, i) => {
-      item.classList.remove("active");
-      dots[i].classList.remove("active");
-      if (i === index) {
-        item.classList.add("active");
-        dots[i].classList.add("active");
-      }
-    });
-  }
-
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % bannerItems.length;
-    showSlide(currentSlide);
-  }
-
-  function prevSlide() {
-    currentSlide = (currentSlide - 1 + bannerItems.length) % bannerItems.length;
-    showSlide(currentSlide);
-  }
-
-  function startAutoSlide() {
-    autoSlideTimer = setInterval(nextSlide, slideInterval);
-  }
-
-  function stopAutoSlide() {
-    clearInterval(autoSlideTimer);
-  }
-
-  prevBtn.addEventListener("click", () => {
-    stopAutoSlide();
-    prevSlide();
-    startAutoSlide();
-  });
-
-  nextBtn.addEventListener("click", () => {
-    stopAutoSlide();
-    nextSlide();
-    startAutoSlide();
-  });
-
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-      stopAutoSlide();
-      currentSlide = index;
-      showSlide(currentSlide);
-      startAutoSlide();
-    });
-  });
-
-  // Bắt đầu trình chiếu tự động lần đầu
-  showSlide(currentSlide);
-  startAutoSlide();
-}
+// slider
+const slides = document.querySelectorAll('.main-slider .slide');
+const texts = document.querySelectorAll('.text-slider .text-slide');
+let idx = 0;
+setInterval(() => {
+  slides[idx].classList.remove('active');
+  texts[idx].classList.remove('active');
+  idx = (idx + 1) % slides.length;
+  slides[idx].classList.add('active');
+  texts[idx].classList.add('active');
+}, 4000);
