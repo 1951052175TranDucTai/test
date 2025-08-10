@@ -1,0 +1,242 @@
+[
+  {
+    "id": 3,
+    "name": "MacBook Pro 14 inch M3",
+    "price": 1599,
+    "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/318/659/products/mbp14-spacegray-gallery1-202310-copy-3ff6d264-4004-4e17-ae1b-0fd63e5061a1.jpg?v=1710587071927",
+    "description": "Ba bước nhảy vọt. Chip M3, M3 Pro và M3 Max là những con chip tiên tiến nhất từng có trên máy tính cá nhân.",
+    "brand": "Apple",
+    "category": "Laptop",
+    "dateAdded": "2024-08-02"
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15 (9530)",
+    "price": 1499,
+    "image": "https://thegioiso365.vn/wp-content/uploads/2024/04/anh-may-avt-9530-4060.jpg",
+    "description": "Laptop hiệu năng cao với màn hình InfinityEdge tuyệt đẹp và bộ vi xử lý Intel Core thế hệ mới nhất.",
+    "brand": "Dell",
+    "category": "Laptop",
+    "dateAdded": "2024-07-25"
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM5",
+    "price": 399,
+    "image": "https://www.sony.com.vn/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
+    "description": "Tai nghe chống ồn không dây hàng đầu với chất lượng âm thanh vượt trội và thiết kế thoải mái.",
+    "brand": "Sony",
+    "category": "Tai nghe",
+    "dateAdded": "2024-07-30"
+  },
+  {
+    "id": 6,
+    "name": "Bose QuietComfort Ultra",
+    "price": 429,
+    "image": "https://hdradio.vn/upload/hinhanh/tai-nghe/Bose/QuietComfort-Ultra/black/bose-quietcomfort-ultra-black-3.jpg",
+    "description": "Trải nghiệm âm thanh Immersive Audio đột phá và khả năng chống ồn đẳng cấp thế giới.",
+    "brand": "Bose",
+    "category": "Tai nghe",
+    "dateAdded": "2024-07-29"
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 9",
+    "price": 399,
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png",
+    "description": "Thông minh hơn. Sáng hơn. Quyền năng hơn. Với thao tác chạm hai lần, một cách đầy diệu kỳ để tương tác.",
+    "brand": "Apple",
+    "category": "Đồng hồ thông minh",
+    "dateAdded": "2024-08-03"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Watch 6",
+    "price": 299,
+    "image": "https://img.global.news.samsung.com/vn/wp-content/uploads/2023/07/001-galaxy-watch6-watch6-classic-combo-kv.jpg",
+    "description": "Theo dõi sức khỏe toàn diện và thiết kế thời thượng, người bạn đồng hành hoàn hảo cho mỗi ngày.",
+    "brand": "Samsung",
+    "category": "Đồng hồ thông minh",
+    "dateAdded": "2024-07-27"
+  },
+  {
+    "id": 9,
+    "name": "ASUS ROG Zephyrus G14",
+    "price": 1449,
+    "image": "https://product.hstatic.net/200000680839/product/2676_thi___t_k____ch__a_c___t__n__2__0f0e6408f3cc4869b01f43a931ff9eeb.png",
+    "description": "Laptop gaming nhỏ gọn nhưng mạnh mẽ với màn hình Nebula Display và card đồ họa NVIDIA GeForce RTX.",
+    "brand": "ASUS",
+    "category": "Laptop",
+    "dateAdded": "2024-08-04"
+  },
+  {
+    "id": 10,
+    "name": "iPad Pro M4",
+    "price": 999,
+    "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pro-13-select-wifi-spaceblack-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1713504315485",
+    "description": "Sức mạnh kinh ngạc trong một thiết kế mỏng, nhẹ và di động không tưởng. Màn hình Ultra Retina XDR.",
+    "brand": "Apple",
+    "category": "Máy tính bảng",
+    "dateAdded": "2024-08-05"
+  },
+  {
+    "id": 11,
+    "name": "DJI Mini 4 Pro",
+    "price": 759,
+    "image": "https://dji-vietnam.vn/wp-content/uploads/2023/09/danh-gia-dji-mini-4-pro.jpg",
+    "description": "Flycam mini với khả năng quay video 4K/60fps HDR và cảm biến vật cản đa hướng.",
+    "brand": "DJI",
+    "category": "Flycam",
+    "dateAdded": "2024-07-26"
+  },
+  {
+    "id": 12,
+    "name": "Sony Alpha a7 IV",
+    "price": 2499,
+    "image": "https://tokyocamera.vn/wp-content/uploads/2021/11/1634813219_IMG_1627574.jpg",
+    "description": "Máy ảnh mirrorless full-frame với cảm biến 33MP, lấy nét tự động hàng đầu và khả năng quay video 4K.",
+    "brand": "Sony",
+    "category": "Máy ảnh",
+    "dateAdded": "2024-07-20"
+  },
+  {
+    "id": 15,
+    "name": "iPhone 16",
+    "price": 829,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=webp&qlt=90&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L28rSU1jVGx4VGxCNEFSdVNXdG1RdzJrQmVLSXFrTCsvY1VvVmRlZkVnMzJKTG1lVWJJT2RXQWE0Mm9rU1V0V0NOVEI2WUFiV1p0R3VzVkZnZjd6c0c0RzhwM3RLeUk1S0YzTkJVVmF2Ly9R&traceId=1",
+    "description": "Trang bị chip A18 hoàn toàn mới, thiết kế tinh tế và những cải tiến AI vượt trội, mang lại trải nghiệm thông minh hơn.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2025-08-10"
+  },
+  {
+    "id": 16,
+    "name": "iPhone 16 Plus",
+    "price": 929,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-teal?wid=5120&hei=2880&fmt=webp&qlt=90&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L0IwNTFtRWJyTEhXTVJ5VURtbkU2V3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUllzdEloeWpsNHM1ODlJeTR1WVJnV20&traceId=1",
+    "description": "Tận hưởng màn hình lớn hơn cho giải trí và công việc, thời lượng pin dài hơn cùng sức mạnh của chip A18.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2025-08-10"
+  },
+  {
+    "id": 17,
+    "name": "iPhone 16 Pro",
+    "price": 1099,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?wid=5120&hei=2880&fmt=webp&qlt=90&.v=eUdsd0dIb3VUOXdtWkY0VFUwVE8vbEdkZHNlSjBQRklnaFB2d3I5MW94Nm1neGR3bXRIczEyZHc4WTk0RkR4VEY3eHJKR1hDaEJCS2hmc2czazlldHlSTUMybCtXNXZpclhWeFpYZUcvRk9MMGVHUi8weFBYOEFFYUZVbWVJS0xsOE8xQ2Rxc3QzeElocmgrcU1DbFJn&traceId=1",
+    "description": "Chip A18 Pro siêu tốc, hệ thống camera chuyên nghiệp và nút \"Capture\" mới giúp bạn sáng tạo không giới hạn.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2025-08-10"
+  },
+  {
+    "id": 18,
+    "name": "iPhone 16 Pro Max",
+    "price": 1299,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-naturaltitanium?wid=5120&hei=2880&fmt=webp&qlt=90&.v=eUdsd0dIb3VUOXdtWkY0VFUwVE8vbEdkZHNlSjBQRklnaFB2d3I5MW94NkkwYXJHRXdBd0xZTDNUS0M2eUNlY0pOZTBYalh5Vk90cEc1K2wwRzFGejRMeXJHUnUva2huMjl4akFHOXNwVjFOU1YvbEhQdCtlZmMrckc2K3RtQzR6UkM0eXdTUkFqNnFqYk5ZcGUzV2tB&traceId=1",
+    "description": "Trải nghiệm đỉnh cao với màn hình ProMotion, hiệu năng đột phá từ chip A18 Pro và camera zoom quang học 5x.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2025-08-10"
+  },
+  {
+    "id": 19,
+    "name": "Samsung Galaxy S25",
+    "price": 849,
+    "image": "https://images.samsung.com/vn/smartphones/galaxy-s25/buy/product_color_navy_PC.png?imbypass=true",
+    "description": "Trải nghiệm Galaxy AI thế hệ mới với chip Snapdragon 8 Gen 4, thiết kế phẳng hiện đại và hiệu năng mạnh mẽ.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2026-01-15"
+  },
+  {
+    "id": 20,
+    "name": "Samsung Galaxy S25+",
+    "price": 1049,
+    "image": "https://images.samsung.com/vn/smartphones/galaxy-s25/buy/product_color_silverShadow_plus_PC.png?imbypass=true",
+    "description": "Màn hình lớn hơn, pin bền bỉ hơn cùng sức mạnh của Galaxy AI và chip Snapdragon 8 Gen 4.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2026-01-15"
+  },
+  {
+    "id": 21,
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 1349,
+    "image": "https://images.samsung.com/vn/smartphones/galaxy-s25-ultra/buy/product_color_black_PC.png?imbypass=true",
+    "description": "Đỉnh cao công nghệ với camera 200MP cải tiến, S Pen tích hợp và hiệu suất không đối thủ từ Snapdragon 8 Gen 4.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2026-01-15"
+  },
+  {
+    "id": 22,
+    "name": "iPhone 15",
+    "price": 799,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-yellow?wid=5120&hei=2880&fmt=webp&qlt=90&.v=cHJOTXEwTU92OEtKVDV2cVB1R2FTSjlERndlRTljaUdZeHJGM3dlLzR2OVBYaW5IbkNlYTVSSU9KZTY4cW9ENTBoUVhuTWlrY2hIK090ZGZZbk9HeEJWb1BiTjRORlc1Y1lKU3JWempySkx2N1VyNEplcjgvcjN0dkF3OE9LSmZmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1",
+    "description": "Dynamic Island nay đã có trên iPhone 15. Camera Chính 48MP. Chip A16 Bionic mạnh mẽ. Thiết kế bền bỉ với mặt lưng kính pha màu.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2024-08-01"
+  },
+  {
+    "id": 23,
+    "name": "iPhone 15 Plus",
+    "price": 899,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-finish-select-202309-6-7inch-green?wid=5120&hei=2880&fmt=webp&qlt=90&.v=cHJOTXEwTU92OEtKVDV2cVB1R2FTSjlERndlRTljaUdZeHJGM3dlLzR2ODN2L3hESFdnNEt0aG5qOEE3aEVIYk9MekhWSGZtV1pvV240QzNuTk80VS9jVTIwcEJjL3Axby9SNE1La0phb1VXUmRlZWtKbU83M252RGd2aDRrRWU&traceId=1",
+    "description": "Màn hình lớn 6,7 inch, Dynamic Island, và thời lượng pin vượt trội. Chip A16 Bionic cho hiệu năng đỉnh cao và camera Chính 48MP.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2024-08-01"
+  },
+  {
+    "id": 24,
+    "name": "iPhone 15 Pro",
+    "price": 999,
+    "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845699405",
+    "description": "Thiết kế titan chuẩn hàng không vũ trụ. Chip A17 Pro thay đổi cuộc chơi. Nút Tác Vụ tùy chỉnh và hệ thống camera Pro mạnh mẽ.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2024-08-01"
+  },
+  {
+    "id": 25,
+    "name": "iPhone 15 Pro Max",
+    "price": 1199,
+    "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702708",
+    "description": "Chip A17 Pro. Hiệu năng đồ họa đỉnh cao. Thiết kế titan bền nhẹ. Hệ thống camera chuyên nghiệp nhất với zoom quang học 5x.",
+    "brand": "Apple",
+    "category": "Điện thoại",
+    "dateAdded": "2024-08-01"
+  },
+  {
+    "id": 26,
+    "name": "Samsung Galaxy S24",
+    "price": 799,
+    "image": "https://images.samsung.com/is/image/samsung/assets/vn/smartphones/galaxy-s24/buy/S24-Color-Sandstone_Orange_PC_0527_final.jpg?imbypass=true",
+    "description": "Galaxy AI đã xuất hiện. Sáng tạo không giới hạn với thiết kế nguyên khối, màn hình Dynamic AMOLED 2X và hiệu năng mạnh mẽ.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2025-01-17"
+  },
+  {
+    "id": 27,
+    "name": "Samsung Galaxy S24+",
+    "price": 999,
+    "image": "https://images.samsung.com/is/image/samsung/assets/vn/smartphones/galaxy-s24/buy/S24Plus-Color-Amber_Yellow_PC_0527_final.jpg?imbypass=true",
+    "description": "Màn hình lớn hơn, pin thông minh hơn và quyền năng Galaxy AI. Chip Exynos 2400 cho hiệu suất vượt trội.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2025-01-17"
+  },
+  {
+    "id": 28,
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1299,
+    "image": "https://images.samsung.com/is/image/samsung/assets/vn/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Violet_PC_0527_final.jpg?imbypass=true",
+    "description": "Kỷ nguyên AI phone mới với khung titan bền bỉ, S Pen tích hợp, và hệ thống camera 200MP đỉnh cao. Chip Snapdragon 8 Gen 3 for Galaxy.",
+    "brand": "Samsung",
+    "category": "Điện thoại",
+    "dateAdded": "2025-01-17"
+  }
+]
